@@ -22,13 +22,13 @@
   }
 }
 
-
-@keyframes grow {
-  0% ,100%{
-    width: 0px;
-  }
-  50% {
-    width: var(--width);
-  }
- 
+body{
+  background-image: url('https://images.pexels.com/photos/2739666/pexels-photo-2739666.jpeg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

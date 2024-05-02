@@ -11,15 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className + `min-h-screen `}>
-        {children}
-       <div className="grid grid-cols-3 gap-2 p-4">
-       {
-        Array(10).fill(null).map((_,index)=> <div key={index} className=" h-[300px] rounded-lg shadow-lg text-center text-white" style={{backgroundColor:randomColor()}}>
-          This is content
-        </div>)
-       }
-       </div>
+      <body className={inter.className}>
+      {children}
       </body>
     </html>
   );
